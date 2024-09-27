@@ -18,6 +18,7 @@ The expected output when this program is ran:
 
 ## Explanation:
 The fork() system call creates a new child process, and both the parent and child processes receive copies of the variable value. However, any changes mad eby the child to its copy of value are not visible to the parent process because they each have their own memory space after the fork().
+
 This illustrates the principle that variables are not shared between parent and child processes after a fork(), even though they start with the same values.
 
 ## Conclusion
