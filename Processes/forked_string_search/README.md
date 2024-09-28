@@ -1,6 +1,6 @@
 # Forked String Search
 
-This program searches a text file named 'data.txt' for occurrences of the words 'easy' and 'polar'. Specifically, `fork()` is used two separate the work. The parent process searches for 'polar' while it's child process searches for 'easy'.
+This program searches a text file named 'data.txt' for occurrences of the words 'easy' and 'polar'. Specifically, `fork()` is used to separate the work. The parent process searches for 'polar' while it's child process searches for 'easy'.
 
 ## Code Overview
 
